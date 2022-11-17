@@ -19,6 +19,6 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
-# For add label
+# For add label --> See readme for how to add label
       nodeSelector:
         demo: "true"
